@@ -1,0 +1,91 @@
+body {
+    margin : 0;
+    padding : 0;
+    font-family : Arial, sans-serif;
+    background-color: #083375
+}
+#formulario {
+    margin : 30px, auto;
+    padding: 20px;
+    background-color: #a4b0b4;
+}
+
+/* titulos dos campos */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(red, green, blue, alpha);
+}
+
+/* Campo de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Campos de opções */
+input[type="radio"],
+input[type="checkbox"],
+{
+    margin-right: 5px;
+}
+
+/* Botões */
+input[type="submit"],
+button[type="reset"],
+button[type="button"],{
+padding: 10px 20px;
+border : none;
+border-radius: 5px;
+font-size: 16px;
+color: #ffffff;
+background-color: #333333;
+cursor : pointer;
+margin-right: 10px;
+}
+
+/* Botão Cancelar */
+button[type="button"],
+{
+    background-color: #000000;
+}
+
+/* Campos de seleção */
+select {
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 75%;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, #ffffff, #0354be);
+}
+
+/* Legenda dos campos */
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color : #333333;
+    margin-bottom: 20px;
+}
+
+/* Mensagem de erro */
+input:invalid {
+    border : 2px solid red;
+}
+
+.rodape
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+fieldset
+{
+    border-color: #000000;
+}
