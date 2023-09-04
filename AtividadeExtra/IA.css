@@ -1,0 +1,87 @@
+body {
+    background: rgba(185, 181, 181, 0.849) url(foto1.jpg);
+    background-repeat: no-repeat;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    line-height: 1.5;
+    /*background-size: cover;
+    background-attachment: scroll;*/
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+article {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-color: #CCC #999 #999 #CCC;
+    margin-bottom: 40px;
+    padding: 20px;
+    /* espaçamento entre a borda e o título */
+}
+
+article h2 {
+    border-bottom: 1px dashed rgb(25, 94, 159);
+    margin: 0;
+}
+
+article img {
+    border: 1px solid rgb(33, 120, 170);
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 160px;
+    height: 160px;
+}
+
+article a {
+    /* mudando a cor dos links para negrito */
+    color: #2C88A7;
+    font-weight: bold;
+}
+
+header h1 a {
+    color: rgb(53, 95, 159);
+    text-decoration: none;
+    margin-left: 250px;
+}
+
+header h1 a:hover {
+    /* mudando a cor do link quando posicionado */
+    background-color: rgba(24, 172, 172, 0.842);
+    color: #FFF;
+}
+
+.clear {
+    /* para a imagem nao "ficar fora" quando usa o float */
+    clear: both;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+section {
+    /* para a barra lateral lista e titulo */
+    float: left;
+    width: 660px;
+}
+
+aside {
+    background-color: rgba(191, 225, 245, 0.692);
+    border: 1px solid rgb(77, 122, 173);
+    padding: 15px;
+    float: right;
+    width: 260px;
+}
+
+aside h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+aside ol {
+    font-size: 12px;
+}
