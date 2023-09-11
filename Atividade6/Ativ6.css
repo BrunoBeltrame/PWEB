@@ -1,0 +1,90 @@
+.conteiner {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+@media (max-width: 420px) {
+    .conteiner {
+        background-color: gray;
+    }
+    .conteiner h1 {
+        color: white;
+    }
+
+    h1::before{
+        content: 'Cinza';
+    } 
+}
+
+
+@media (min-width: 421px) and (max-width: 768px) {
+    .conteiner {
+        background-color: yellow;
+    }
+    .conteiner h1 {
+        color: black;
+    }
+
+    h1::before{
+        content: 'Amarelo';
+    } 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .conteiner {
+        background-color: green;
+    }
+    .conteiner h1 {
+        color: white;
+    }
+
+    h1::before{
+        content: 'Verde';
+    } 
+}
+
+@media (min-width: 1025px) and (max-width: 1080px) {
+    .conteiner {
+        background-color: rgb(11, 164, 252);
+    }
+    .conteiner h1 {
+        color: black;
+    }
+
+    h1::before{
+        content: 'Azul';
+    } 
+}
+
+@media (min-width: 1081px) and (max-width: 1366px) {
+    .conteiner {
+        background-color: red;
+    }
+    .conteiner h1 {
+        color: black;
+    }
+
+    h1::before{
+        content: 'Vermelho';
+    } 
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+    .conteiner {
+        background-color: orange;
+    }
+    .conteiner h1 {
+        color: black;
+    }
+
+    h1::before{
+        content: 'Laranja';
+    } 
+}
+
